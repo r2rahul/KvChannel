@@ -1,0 +1,5 @@
+DEFINE_REACTIONS
+{
+  Kv' <-> KvA' [>1000, <1000]
+  KvA' + SUMO, -> Kv' + SUMO, [1e12] :inhibit
+}

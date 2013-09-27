@@ -1,0 +1,16 @@
+DEFINE_MOLECULES
+{
+  Kv
+  {
+    DIFFUSION_CONSTANT_2D = 1e-08
+  }
+  KvA
+  {
+    DIFFUSION_CONSTANT_2D = 1e-08
+  }
+  SUMO
+  {
+    DIFFUSION_CONSTANT_3D = 1e-06
+  }
+}
+

@@ -1,0 +1,9 @@
+REACTION_DATA_OUTPUT
+{
+  STEP=1e-06
+  {COUNT[Kv,WORLD]}=> "./react_data/seed_" & seed & "/Kv.World.dat"
+  {COUNT[KvA,WORLD]}=> "./react_data/seed_" & seed & "/KvA.World.dat"
+  {COUNT[SUMO,WORLD]}=> "./react_data/seed_" & seed & "/SUMO.World.dat"
+  {COUNT[inhibit,WORLD]}=> "./react_data/seed_" & seed & "/inhibit.World.dat"
+}
+
